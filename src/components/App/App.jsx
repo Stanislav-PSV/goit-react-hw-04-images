@@ -13,7 +13,7 @@ import Loader from 'components/Loader';
 import imagesAPI from '../../services/images-api';
 
 export const App = () => {
-	
+
 	const [images, setImages] = useState([]);
 	const [id, setId] = useState(null);
 	const [searchQuery, setSearchQuery] = useState('');
@@ -66,17 +66,17 @@ export const App = () => {
 
 			{isLoading && <Loader />}
 			{error && <ImageErrorView
-					message={error}
-				/>}
+				message={error}
+			/>}
 			{isEmpty && (
 				<ImageErrorView
-					message={`Немає картинки з ім'ям '${searchQuery}'`}
+					message={`There is no picture with a name'${searchQuery}'`}
 				/>
 			)}
 			{searchQuery ? (
 				<ImageGallery openModal={openModal} images={images} />
 			) : (
-				<Notify>Введіть слово в пошуковий рядочок</Notify>
+				<Notify>Enter a word in the search bar</Notify>
 			)}
 
 			{loadMore && <Button onClick={() => setPage(page => page + 1)} page={page} />}

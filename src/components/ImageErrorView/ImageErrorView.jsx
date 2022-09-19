@@ -6,11 +6,11 @@ export default function ImageErrorView({ message }) {
 	return (
 		<ImageErrorViewStyled role='alert'>
 			<img src={errorImage} width='240' alt="sadcat" />
-			<p>{ message}</p>
+			<p>{message}</p>
 		</ImageErrorViewStyled>
 	)
 }
 
 ImageErrorView.propTypes = {
-  message: PropTypes.string,
+	message: PropTypes.string,
 };

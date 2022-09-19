@@ -11,7 +11,7 @@ const Modal = ({ onClose, images, id }) => {
 		return () => {
 			window.removeEventListener('keydown', handleKeyDown);
 		};
-	}, []); // eslint-disable-line
+	}, []);
 
 	const findImage = () => {
 		if (id) {

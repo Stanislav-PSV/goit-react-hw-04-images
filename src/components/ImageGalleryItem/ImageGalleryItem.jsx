@@ -13,11 +13,10 @@ const ImageGalleryItem = ({ image: { webformatURL, tags, id }, onClick }) => {
 };
 
 ImageGalleryItem.propTypes = {
-  webformatURL: PropTypes.string,
-  tags: PropTypes.array,
-  id: PropTypes.number,
-  onClick: PropTypes.func.isRequired,
+	webformatURL: PropTypes.string,
+	tags: PropTypes.array,
+	id: PropTypes.number,
+	onClick: PropTypes.func.isRequired,
 };
 
 export default ImageGalleryItem;
-

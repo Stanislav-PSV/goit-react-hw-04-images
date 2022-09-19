@@ -1,1 +1,1 @@
-export {default} from './ImageErrorView'
+export { default } from './ImageErrorView'

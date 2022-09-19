@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ImageGalleryStyle = styled.ul`
-display: grid;
+  display: grid;
   max-width: calc(100vw - 48px);
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-gap: 16px;
@@ -14,7 +14,7 @@ display: grid;
 `
 
 export const Notify = styled.div`
-display: grid;
+  display: grid;
   max-width: calc(100vw - 48px);
   margin-left: auto;
   margin-right: auto;

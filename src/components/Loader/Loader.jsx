@@ -6,8 +6,7 @@ export default function Loader() {
 	return (
 		<LoaderStyled role='alert'>
 			<Hearts color="#00BFFF" height={80} width={100} />
-			Завантажуємо...
+			Loading...
 		</LoaderStyled>
 	)
 }
-

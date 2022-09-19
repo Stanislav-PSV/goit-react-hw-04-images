@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SearchForm = styled.form`
-display: flex;
+  display: flex;
   align-items: center;
   width: 100%;
   max-width: 600px;
@@ -10,7 +10,7 @@ display: flex;
   overflow: hidden;
 `
 export const SearchButton = styled.button`
-display: inline-block;
+  display: inline-block;
   width: 48px;
   height: 48px;
   border: 0;
@@ -27,7 +27,7 @@ display: inline-block;
 }
 `
 export const SearchLabel = styled.label`
-position: absolute;
+  position: absolute;
   width: 1px;
   height: 1px;
   padding: 0;
@@ -38,7 +38,7 @@ position: absolute;
   border: 0;
 `
 export const SearchInput = styled.input`
-display: inline-block;
+  display: inline-block;
   width: 100%;
   font: inherit;
   font-size: 20px;

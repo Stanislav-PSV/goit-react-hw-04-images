@@ -1,1 +1,1 @@
-export {default} from './SearchbarForm'
+export { default } from './SearchbarForm'

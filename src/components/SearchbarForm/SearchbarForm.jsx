@@ -20,7 +20,7 @@ const SearchbarForm = ({ onSubmit }) => {
 		e.preventDefault();
 
 		if (searchQuery.trim() === '') {
-			toast.warn('Введіть слово для пошуку');
+			toast.warn('Enter a word to search for');
 			return;
 		}
 		onSubmit(searchQuery);
@@ -39,7 +39,7 @@ const SearchbarForm = ({ onSubmit }) => {
 				type="text"
 				autoComplete="off"
 				autoFocus
-				placeholder="Пошук зображень та фотографій"
+				placeholder="Search for images and photos"
 				value={searchQuery}
 				onChange={handleValueChange}
 			/>
